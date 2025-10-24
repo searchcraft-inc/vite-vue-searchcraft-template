@@ -6,7 +6,7 @@ A minimal Vue + TypeScript template powered by <a href="https://searchcraft.io">
 
 <p align="center">
   <a href="https://vitejs.dev/">
-    <img src="https://img.shields.io/badge/Vite-6.3.5-646CFF.svg?logo=vite&style=flat" alt="Vite">
+    <img src="https://img.shields.io/badge/Vite-6.4.1-646CFF.svg?logo=vite&style=flat" alt="Vite">
   </a>
   <a href="https://vuejs.org/">
     <img src="https://img.shields.io/badge/Vue-3.5.13-4FC08D.svg?logo=vue.js&style=flat" alt="Vue">
@@ -15,7 +15,7 @@ A minimal Vue + TypeScript template powered by <a href="https://searchcraft.io">
     <img src="https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
   <a href="https://www.npmjs.com/package/@searchcraft/vue-sdk">
-    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.11.1-2B2B2B.svg" alt="Searchcraft SDK">
+    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.12.0-2B2B2B.svg" alt="Searchcraft SDK">
   </a>
   <a href="https://eslint.org/">
     <img src="https://img.shields.io/badge/ESLint-9.25.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">
@@ -26,7 +26,6 @@ A minimal Vue + TypeScript template powered by <a href="https://searchcraft.io">
 </p>
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
 - [Features](#features)
   - [🧰 Template Features](#-template-features)
