@@ -12,7 +12,7 @@
       />
 
       <div class="filter-section">
-        <h4>Filter Panel</h4>
+        <h4 data-toggle-filter-panel>Filter Panel</h4>
         <!-- Note: If filters don't work, check that the fieldName values match your index schema -->
         <SearchcraftFilterPanel :items="filterItems" />
       </div>
@@ -34,20 +34,20 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
 import {
-  SearchcraftInputForm,
   SearchcraftFilterPanel,
-  SearchcraftSearchResults,
-  SearchcraftResultsInfo,
-  SearchcraftSearchResultsPerPage,
+  SearchcraftInputForm,
   SearchcraftPagination,
+  SearchcraftResultsInfo,
+  SearchcraftSearchResults,
+  SearchcraftSearchResultsPerPage,
   type DateRangeFilterItem,
   type ExactMatchToggleFilterItem,
   type FacetsFilterItem,
   type MostRecentToggleFilterItem,
   type NumericFilterItem,
 } from '@searchcraft/vue-sdk'
+import { onMounted } from 'vue'
 import { exampleSearchResultTemplate } from '../searchResultTemplate'
 
 const searchResultTemplate = exampleSearchResultTemplate
