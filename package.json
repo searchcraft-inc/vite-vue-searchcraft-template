@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@searchcraft/vue-sdk": "^0.13.0",
+    "@searchcraft/vue-sdk": "^0.13.1",
     "vue": "^3.5.25"
   },
   "devDependencies": {
