@@ -1,7 +1,7 @@
 {
   "name": "vite-vue-searchcraft-template",
   "private": true,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,21 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@searchcraft/vue-sdk": "^0.14.0",
-    "vue": "^3.5.29"
+    "@searchcraft/vue-sdk": "^0.15.1",
+    "vue": "^3.5.32"
   },
   "devDependencies": {
-    "@eslint/js": "^9.25.0",
+    "@eslint/js": "^10.0.1",
     "@tsconfig/node22": "^22.0.5",
-    "@types/node": "^22.19.13",
-    "@vitejs/plugin-vue": "^5.2.4",
-    "@vue/tsconfig": "^0.8.1",
-    "eslint": "^9.39.3",
-    "eslint-plugin-vue": "^9.33.0",
-    "globals": "^16.5.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.56.1",
-    "vite": "^6.4.1",
-    "vue-tsc": "^2.2.12"
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.8",
+    "vue-tsc": "^3.2.7"
   }
 }
