@@ -6,22 +6,22 @@ A minimal Vue + TypeScript template powered by <a href="https://searchcraft.io">
 
 <p align="center">
   <a href="https://vitejs.dev/">
-    <img src="https://img.shields.io/badge/Vite-6.4.1-646CFF.svg?logo=vite&style=flat" alt="Vite">
+    <img src="https://img.shields.io/badge/Vite-8.1.5-646CFF.svg?logo=vite&style=flat" alt="Vite">
   </a>
   <a href="https://vuejs.org/">
-    <img src="https://img.shields.io/badge/Vue-3.5.13-4FC08D.svg?logo=vue.js&style=flat" alt="Vue">
+    <img src="https://img.shields.io/badge/Vue-3.5.40-4FC08D.svg?logo=vue.js&style=flat" alt="Vue">
   </a>
   <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript&style=flat" alt="TypeScript">
+    <img src="https://img.shields.io/badge/TypeScript-6.0-blue.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
   <a href="https://www.npmjs.com/package/@searchcraft/vue-sdk">
-    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.12.0-2B2B2B.svg" alt="Searchcraft SDK">
+    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.15.1-2B2B2B.svg" alt="Searchcraft SDK">
   </a>
   <a href="https://eslint.org/">
-    <img src="https://img.shields.io/badge/ESLint-9.25.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">
+    <img src="https://img.shields.io/badge/ESLint-10.8.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">
   </a>
   <a href="https://nodejs.org/en/">
-    <img src="https://img.shields.io/badge/Node.js-18+-339933.svg?logo=node.js&style=flat" alt="Node.js">
+    <img src="https://img.shields.io/badge/Node.js-22.13+-339933.svg?logo=node.js&style=flat" alt="Node.js">
   </a>
 </p>
 
@@ -55,10 +55,10 @@ Whether you're building search for a publisher, SaaS app, ecommerce experience, 
 ### 🧰 Template Features
 
 - 💚 **Vue 3 + TypeScript** – The latest versions for modern development
-- ⚡ **Vite 6** – Lightning-fast builds, HMR, and DX
+- ⚡ **Vite 8** – Lightning-fast builds, HMR, and DX
 - 🧪 **Minimal boilerplate** – Just enough structure to get started
 - 🔐 **Environment-based configuration** – No hardcoded secrets
-- ✅ **ESLint 9** – Preconfigured for code quality with Vue support
+- ✅ **ESLint 10** – Preconfigured for code quality with Vue support
 
 ### 🔍 Searchcraft SDK Features
 
@@ -107,7 +107,7 @@ This project includes a few helpful npm/yarn scripts to streamline development:
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) v18+
+- [Node.js](https://nodejs.org/) v22.13+ (v20.19+ also works; Vite 8 and ESLint 10 require `^20.19.0 || ^22.13.0 || >=24`)
 - [Yarn](https://yarnpkg.com/) (or npm)
 - A [Searchcraft](https://searchcraft.io) account with a configured index
 
